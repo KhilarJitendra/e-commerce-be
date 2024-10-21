@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const authRoutes = require("./routes/auth");
+const userRoutes = require("./routes/user");
 const mongoose = require("mongoose"); // Add Mongoose
 
 // Load environment variables
@@ -25,6 +26,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/auth", authRoutes);
+app.use("/api/user", userRoutes);
 
 // Set the server to listen on a port
 const PORT = process.env.PORT || 5000;

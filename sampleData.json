@@ -1,0 +1,47 @@
+{
+  "productId": "12345",
+  "name": "Apple iPhone 15",
+  "title": "Apple iPhone 15 - 256GB, Silver",
+  "description": "Latest model of the iPhone with improved camera and performance.",
+  "category": "Electronics",
+  "brand": "Apple",
+  "model": "iPhone 15",
+  "price": 999.99,
+  "currency": "USD",
+  "discountedPrice": 899.99,
+  "discount": "10%",
+  "priceValidUntil": "2024-12-31",
+  "taxIncluded": true,
+  "stockQuantity": 50,
+  "availability": "InStock",
+  "sku": "APPLE-IP15-256-SILVER",
+  "shippingAvailability": "Worldwide",
+  "imageUrl": "https://example.com/images/iphone15.jpg",
+  "gallery": [
+    "https://example.com/images/iphone15_1.jpg",
+    "https://example.com/images/iphone15_2.jpg"
+  ],
+  "videoUrl": "https://example.com/videos/iphone15.mp4",
+  "weight": "174g",
+  "dimensions": {
+    "length": "146.7mm",
+    "width": "71.5mm",
+    "height": "7.4mm"
+  },
+  "variants": [
+    { "color": "Silver", "size": "256GB" },
+    { "color": "Gold", "size": "512GB" }
+  ],
+  "shippingCost": 19.99,
+  "shippingWeight": "200g",
+  "deliveryEstimate": "3-5 business days",
+  "rating": 4.5,
+  "reviewsCount": 1500,
+  "createdAt": "2024-10-01",
+  "updatedAt": "2024-10-15",
+  "tags": ["smartphone", "iphone", "apple"],
+  "warranty": "1 year",
+  "metaTitle": "Buy Apple iPhone 15 Online",
+  "metaDescription": "Shop the latest iPhone 15 at the best price.",
+  "slug": "apple-iphone-15"
+}
